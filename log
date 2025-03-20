@@ -34,3 +34,21 @@ test.c:217:9: error: implicit declaration of function 'parentesisBalanceados' [-
 cc1.exe: all warnings being treated as errors
 Compilation failed
 709ca44
+Thu, Mar 20, 2025  5:59:11 PM: 
+ exercises.c | 43 -------------------------------------------
+ 1 file changed, 43 deletions(-)
+test.c: In function 'test_elimina_elemento':
+test.c:132:5: error: implicit declaration of function 'eliminaElementos' [-Werror=implicit-function-declaration]
+     eliminaElementos(L, elem);
+     ^~~~~~~~~~~~~~~~
+test.c: In function 'test_copia_pila':
+test.c:175:5: error: implicit declaration of function 'copia_pila' [-Werror=implicit-function-declaration]
+     copia_pila(P1, P2);
+     ^~~~~~~~~~
+test.c: In function 'test_parentesis_balanceados':
+test.c:217:9: error: implicit declaration of function 'parentesisBalanceados' [-Werror=implicit-function-declaration]
+     if(!parentesisBalanceados(s)){
+         ^~~~~~~~~~~~~~~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+cbea990
