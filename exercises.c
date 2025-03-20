@@ -67,3 +67,36 @@ int sumaLista(List *L) {
    return suma;
 }
 
+/*
+Ejercicio 3.
+Crea una función que reciba una lista de punteros a int (int*) y
+un entero elem. La función debe eliminar todos los elementos 
+de la lista que sean iguales a elem.
+Asume que popCurrent luego de eliminar un elemento se
+posiciona en el elemento anterior.
+*/
+
+void eliminaElementos(List*L, int elem){
+}
+
+/*
+Ejercicio 4.
+La función copia los punteros de la pila P1 en la pila P2.
+El orden de ambas pilas se debe mantener.
+Puedes usar una pila auxiliar.
+*/
+
+void copia_pila(Stack* P1, Stack* P2) {
+}
+
+/*
+Ejercicio 5.
+La función verifica si la cadena de entrada tiene sus 
+paraéntesis balanceados. Retorna 1 si están balanceados,
+0 en caso contrario.
+*/
+
+int parentesisBalanceados(char *cadena) {
+   return 0;
+}
+
