@@ -44,7 +44,7 @@ Al finalizar retorna la lista creada.
 List* crea_lista() {
    List* L = create_list();
    for(int i = 1; i <= 10; i++){
-      int* nuevoDato = (int*)malloc(sizeof(int));
+      int *nuevoDato = (int*)malloc(sizeof(int));
       *nuevoDato = i;
       pushBack(L, nuevoDato);
    }
@@ -56,6 +56,7 @@ Ejercicio 2.
 Crea una función que reciba una lista de enteros (int*) y 
 retorne la suma de sus elementos.
 */
+
 int sumaLista(List *L) {
    int suma = 0;
    void *dato = first(L);
@@ -74,7 +75,7 @@ de la lista que sean iguales a elem.
 Asume que popCurrent luego de eliminar un elemento se
 posiciona en el elemento anterior.
 */
-
+/*
 void eliminaElementos(List*L, int elem){
    int *elem_lista = first(L);
    while (elem_lista != NULL){
@@ -85,27 +86,27 @@ void eliminaElementos(List*L, int elem){
       else elem_lista = next(L);
    }
 }
-
+*/
 /*
 Ejercicio 4.
 La función copia los punteros de la pila P1 en la pila P2.
 El orden de ambas pilas se debe mantener.
 Puedes usar una pila auxiliar.
 */
-
+/*
 void copia_pila(Stack* P1, Stack* P2) {
    Stack* Paux = create_stack();
    void *dato
 }
-
+*/
 /*
 Ejercicio 5.
 La función verifica si la cadena de entrada tiene sus 
 paraéntesis balanceados. Retorna 1 si están balanceados,
 0 en caso contrario.
 */
-
+/*
 int parentesisBalanceados(char *cadena) {
    return 0;
 }
-
+*/
