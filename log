@@ -200,3 +200,9 @@ exercises.c:98:18: error: initialization makes pointer from integer without a ca
 cc1.exe: all warnings being treated as errors
 Compilation failed
 0290438
+Sat, Mar 22, 2025 12:49:59 PM: 
+ exercises.c | 13 -------------
+ 1 file changed, 13 deletions(-)
+ tests:  3|2
+total_score: 40/70
+6daefd1
