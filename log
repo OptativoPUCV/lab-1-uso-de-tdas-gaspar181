@@ -224,3 +224,14 @@ Sat, Mar 22, 2025 12:53:22 PM:
  tests:  4|1
 total_score: 50/70
 89ca818
+Sat, Mar 22, 2025  6:24:45 PM: 
+ exercises.c | 20 ++++++++++++++++++++
+ 1 file changed, 20 insertions(+)
+In file included from test.c:5:0:
+exercises.c: In function 'parentesisBalanceados':
+exercises.c:131:23: error: comparison between pointer and integer [-Werror]
+          if (*topChar == NULL) return 0;
+                       ^~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+673fb64
