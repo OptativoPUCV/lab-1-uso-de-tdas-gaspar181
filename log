@@ -100,3 +100,13 @@ exercises.c:98:18: error: initialization makes pointer from integer without a ca
 cc1.exe: all warnings being treated as errors
 Compilation failed
 72bb8a2
+Sat, Mar 22, 2025 12:39:53 PM: 
+In file included from test.c:5:0:
+exercises.c: In function 'copia_pila':
+exercises.c:98:18: error: implicit declaration of function 'createStack' [-Werror=implicit-function-declaration]
+    Stack* Paux = createStack();
+                  ^~~~~~~~~~~
+exercises.c:98:18: error: initialization makes pointer from integer without a cast [-Werror=int-conversion]
+cc1.exe: all warnings being treated as errors
+Compilation failed
+86b6603
